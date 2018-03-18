@@ -1,0 +1,11 @@
+D:\Software-House\Software-House\Software-House\obj\Debug\netcoreapp2.0\Software-House.csproj.CoreCompileInputs.cache
+D:\Software-House\Software-House\Software-House\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Software-House\Software-House\Software-House\obj\Debug\netcoreapp2.0\Software-House.AssemblyInfoInputs.cache
+D:\Software-House\Software-House\Software-House\obj\Debug\netcoreapp2.0\Software-House.AssemblyInfo.cs
+D:\Software-House\Software-House\Software-House\bin\Debug\netcoreapp2.0\Software-House.deps.json
+D:\Software-House\Software-House\Software-House\bin\Debug\netcoreapp2.0\Software-House.runtimeconfig.json
+D:\Software-House\Software-House\Software-House\bin\Debug\netcoreapp2.0\Software-House.runtimeconfig.dev.json
+D:\Software-House\Software-House\Software-House\bin\Debug\netcoreapp2.0\Software-House.dll
+D:\Software-House\Software-House\Software-House\bin\Debug\netcoreapp2.0\Software-House.pdb
+D:\Software-House\Software-House\Software-House\obj\Debug\netcoreapp2.0\Software-House.dll
+D:\Software-House\Software-House\Software-House\obj\Debug\netcoreapp2.0\Software-House.pdb
