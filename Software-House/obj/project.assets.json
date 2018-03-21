@@ -13119,6 +13119,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.6",
+      "Microsoft.AspNetCore.SpaServices >= 2.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 2.0.2",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.3"
@@ -13131,11 +13132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Software-House\\Software-House\\Software-House\\Software-House.csproj",
+      "projectUniqueName": "D:\\Softwarehouse\\Software-House\\Software-House.csproj",
       "projectName": "Software-House",
-      "projectPath": "D:\\Software-House\\Software-House\\Software-House\\Software-House.csproj",
+      "projectPath": "D:\\Softwarehouse\\Software-House\\Software-House.csproj",
       "packagesPath": "C:\\Users\\GAK\\.nuget\\packages\\",
-      "outputPath": "D:\\Software-House\\Software-House\\Software-House\\obj\\",
+      "outputPath": "D:\\Softwarehouse\\Software-House\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13168,6 +13169,10 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.6, )"
+          },
+          "Microsoft.AspNetCore.SpaServices": {
+            "target": "Package",
+            "version": "[2.0.3, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "suppressParent": "All",

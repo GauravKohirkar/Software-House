@@ -9,3 +9,15 @@ D:\Software-House\Software-House\Software-House\bin\Debug\netcoreapp2.0\Software
 D:\Software-House\Software-House\Software-House\bin\Debug\netcoreapp2.0\Software-House.pdb
 D:\Software-House\Software-House\Software-House\obj\Debug\netcoreapp2.0\Software-House.dll
 D:\Software-House\Software-House\Software-House\obj\Debug\netcoreapp2.0\Software-House.pdb
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.deps.json
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.runtimeconfig.json
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.runtimeconfig.dev.json
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.dll
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.pdb
+D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.csprojResolveAssemblyReference.cache
+D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.csproj.CoreCompileInputs.cache
+D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.AssemblyInfoInputs.cache
+D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.AssemblyInfo.cs
+D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.dll
+D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.pdb
+D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs

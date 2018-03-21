@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.SpaServices.Webpack;
 using Software_House.Data;
 using Software_House.Data.Models;
 using Software_House.Identity.Services;
+
 
 namespace Software_House
 {
@@ -46,6 +48,14 @@ namespace Software_House
             {
                 app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
+
+                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions()
+                {
+                    HotModuleReplacement = true,
+                    ReactHotModuleReplacement = true,
+                    HotModuleReplacementEndpoint = "/dist/__webpack_hmr"
+                });
+
                 app.UseDatabaseErrorPage();
             }
             else
