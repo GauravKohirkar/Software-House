@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Software_House.Data
+namespace Software_House.DataAccess.Models
 {
     public class Project
     {

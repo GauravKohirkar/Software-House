@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Software_House.Data.Models;
+using Software_House.DataAccess.Models;
 using Software_House.Identity.Models.ManageViewModels;
 using Software_House.Identity.Services;
 

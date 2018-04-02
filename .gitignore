@@ -1,4 +1,8 @@
 node_modules
-node_modules
 bin
 .metadata
+*.suo
+*.user
+_ReSharper.*
+obj
+packages

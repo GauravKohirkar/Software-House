@@ -14,10 +14,16 @@ D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.runtimeco
 D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.runtimeconfig.dev.json
 D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.dll
 D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.pdb
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.DataAccess.dll
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.DataAccess.pdb
 D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.csprojResolveAssemblyReference.cache
 D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.csproj.CoreCompileInputs.cache
 D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.AssemblyInfoInputs.cache
 D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.AssemblyInfo.cs
+D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.csproj.CopyComplete
 D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.dll
 D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\Software-House.pdb
-D:\Softwarehouse\Software-House\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.Contract.dll
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.Contract.pdb
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.Services.dll
+D:\Softwarehouse\Software-House\bin\Debug\netcoreapp2.0\Software-House.Services.pdb

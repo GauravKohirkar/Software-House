@@ -7,9 +7,7 @@
 
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" PrivateAssets="All" />
   </ItemGroup>
 
@@ -21,6 +19,12 @@
 
   <ItemGroup>
     <Folder Include="node_modules\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Software-House.Contract\Software-House.Contract.csproj" />
+    <ProjectReference Include="..\Software-House.DataAccess\Software-House.DataAccess.csproj" />
+    <ProjectReference Include="..\Software-House.Services\Software-House.Services.csproj" />
   </ItemGroup>
 
 </Project>

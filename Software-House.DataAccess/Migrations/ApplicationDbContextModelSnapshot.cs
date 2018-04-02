@@ -5,16 +5,15 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
-using Software_House.Data;
+using Software_House.DataAccess;
 using System;
 
-namespace Software_House.Data.Migrations
+namespace Software_House.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20180325030948_AddedProjectEntity")]
-    partial class AddedProjectEntity
+    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -129,7 +128,7 @@ namespace Software_House.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("Software_House.Data.Models.ApplicationUser", b =>
+            modelBuilder.Entity("Software_House.DataAccess.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
@@ -180,7 +179,7 @@ namespace Software_House.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("Software_House.Data.Project", b =>
+            modelBuilder.Entity("Software_House.DataAccess.Project", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -208,7 +207,7 @@ namespace Software_House.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Software_House.Data.Models.ApplicationUser")
+                    b.HasOne("Software_House.DataAccess.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -216,7 +215,7 @@ namespace Software_House.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Software_House.Data.Models.ApplicationUser")
+                    b.HasOne("Software_House.DataAccess.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -229,7 +228,7 @@ namespace Software_House.Data.Migrations
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Software_House.Data.Models.ApplicationUser")
+                    b.HasOne("Software_House.DataAccess.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -237,7 +236,7 @@ namespace Software_House.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Software_House.Data.Models.ApplicationUser")
+                    b.HasOne("Software_House.DataAccess.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
