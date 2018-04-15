@@ -39,7 +39,12 @@ namespace Software_House.Services.Services
             return CommonResult.Success();
         }
 
-        public List<ProjectsDto> GetAll()
+		public void Delete(int id)
+		{
+			_projectsRepository.Delete(id);
+		}
+
+		public List<ProjectsDto> GetAll()
         {
             return _projectsRepository.GetAll();
         }

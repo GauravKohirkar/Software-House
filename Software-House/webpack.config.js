@@ -9,9 +9,6 @@ const paths = {
 
 const config = {
         entry: {
-            home: './Frontend/Homepage/index.tsx',
-            //projects: './Frontend/Projects/index.tsx',
-            // Common libraries
             libs: [
                 'bootstrap', 
                 'bootstrap/dist/css/bootstrap.css', 

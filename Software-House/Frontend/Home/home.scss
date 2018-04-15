@@ -1,11 +1,8 @@
-@import '../Shared/Styles/breakpoints.scss';
-
-.banner {
-    @media (min-width: $breakpoint-md) {
+﻿.banner {
+    @media (min-width: 992px) {
         margin: 40px 0 100px;
     }
 }
-
 .banner-text {
     font-weight: 600;
     color: #303030;

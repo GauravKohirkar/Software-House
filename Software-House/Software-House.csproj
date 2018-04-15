@@ -18,6 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Frontend\Projects\" />
+    <Folder Include="Frontend\Shared\Component\" />
+    <Folder Include="Frontend\Shared\Styles\" />
     <Folder Include="node_modules\" />
   </ItemGroup>
 

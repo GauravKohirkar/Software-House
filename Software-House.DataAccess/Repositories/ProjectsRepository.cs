@@ -30,7 +30,15 @@ namespace Software_House.DataAccess.Repositories
             _dbContext.SaveChanges();
         }
 
-        public List<ProjectsDto> GetAll()
+		public void Delete(int id)
+		{
+			var project = _dbContext.Projects.First(x => x.Id == id);
+			project.IsDeleted = true;
+
+			_dbContext.SaveChanges();
+		}
+
+		public List<ProjectsDto> GetAll()
         {
             return _dbContext.Projects.Where(x => !x.IsDeleted)
                 .Select(x => new ProjectsDto

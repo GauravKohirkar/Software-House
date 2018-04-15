@@ -11,5 +11,6 @@ namespace Software_House.Contract.Repositories
         ProjectsDto GetById(int id);
         void Add(AddProjectDto project);
         ProjectsDto GetByName(string projectName);
-    }
+		void Delete(int id);
+	}
 }
